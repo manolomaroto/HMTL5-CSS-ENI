@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Formulario HTML5</title>
+        <meta charset="utf-8">
+        <style>
+            fieldset {border:1px solid #000;}
+        </style>
+    </head>
+    <body>
+        <form action="mailto:manuelgmaroto@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend><i>Cliente</i></legend>
+                <label for="nombre">Nombre y apellidos: </label> 
+                <input type="text" name="nombre" id="nombre" required placeholder="Nombre y apellidos"><br>
+                <label for="direccion">Dirección: </label> 
+                <input type="text" name="direccion" id="direccion" required><br> 
+                <label for="cp">Codigo Postal: </label> 
+                <input type="text" name="cp" id="cp" required size="4" maxlength="5" pattern="[0-9]"><br>
+                <label for="pais">País</label>
+                <input type="text" readonly name="pais" id="pais" value="España">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><i>Pedido</i></legend>
+                <label for="modelo">Modelo</label>
+                <input type="text" readonly name="modelo" id="modelo" value="Road 66"><br>
+                Talla:<br>
+                <input type="range" name="talla" min="1" max="4" step="1" value="2">
+                <div>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <br>
+                <label for="cantidad">Cantidad</label>
+                <input type="number" name="cantidad" id="cantidad" min="1" max="6" step="1" value="1"><br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Realizar pedido">
+            <input type="reset" value="Anular">
+        </form>
+    </body>
+</html>

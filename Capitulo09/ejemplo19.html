@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Cursores</title>
+        <meta charset="utf-8">
+        <style>
+            span{
+                margin-right: 25px;
+            }
+            #barra{
+                margin-top: -2px;   
+            }
+            #cantidad{
+                margin-top: 10px;
+            }
+        </style>
+        <script>
+            
+            function mostrar(seleccion){
+                document.getElementById('valor').innerHTML = seleccion;
+            }
+        </script>
+    </head>
+    <body>
+        <h3>Input tipo range</h3>
+        <form action="">
+            <fieldset>
+                <legend>Seleccionando cantidades</legend>
+                <label for="cantidad">Cantidad</label>
+                <input type="range" min="1" max="5" value="3" id="cantidad" onchange="mostrar(this.value)"><br>
+                <div id="barra">
+                    <span style="margin-left:90px;">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                </div>
+                <p>Ha escogido: <span id="valor">1</span></p>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Compatibilidad hacia atrás</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h3>Compatibilidad con explorer 8</h3>
+        <audio controls>
+            <source src="piano_ogg.ogg">
+            <source src="piano_mp3.mp3">
+            <source src="piano_acc.acc">
+            <object data="piano_mp3.mp3" type="audio/mpeg" title="Archivo sonoro" width="280" height="45">
+                <param name="src" value="piano_mp3.mp3"> 
+                <param name="autoplay" value="false"> 
+                <param name="loop" value="false">
+                <param name="controller" value="true">
+            </object>
+        </audio>
+    </body>
+</html>

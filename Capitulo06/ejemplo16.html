@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Agrupando lineas</title>
+        <meta charset="utf-8">
+        <style>
+            table {
+                margin-right: auto;
+                margin-left: auto;
+                border-collapse: collapse;
+                border: 1px solid #acbf43;
+                width: 300px;
+            }
+            td{
+                border:1px solid #acbf43;
+            }
+            #columnas{
+                background-color: #9e6c3b;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Ahora agrupamos las dos últimas</h3>
+        <table>
+            <caption>Colgroup por dos</caption>
+            <colgroup span="1"></colgroup>
+            <colgroup id="columnas" span="2"></colgroup>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </body>
+</html>

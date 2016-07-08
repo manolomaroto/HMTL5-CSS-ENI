@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Estructura de la tabla</title>
+        <meta charset="utf-8">
+        <style>
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+                border: 1px solid #eded00;
+                width: 300px;
+            }
+            td {
+                border: 1px solid #eded00;
+         
+            }
+            .centrado{
+                text-align: center;
+            }
+            thead {
+                background-color: #99ccff;
+                font-size: 1.4em;
+            }
+            tfood {
+                font-size: .7em;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Etiquetas thead, tbody y tfoot para estructurar las tablas</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2" class="centrado">Fusión de filas y columnas</td>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td><i>colspan</i></td>
+                    <td>Para fusionar columnas</td>
+                </tr>
+                <tr>
+                    <td><i>rowspan</i></td>
+                    <td>Para fusionar filas</td>
+                </tr>
+            </tbody>
+            <tfood>
+                <tr>
+                    <td colspan="2"" class="centrado">W3C working</td>
+                </tr>
+            </tfood>
+        </table>
+    </body>
