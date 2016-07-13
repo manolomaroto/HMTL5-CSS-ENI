@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Geolocalización</title>
+        <meta charset="utf-8">
+        <script>
+            if(navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position){
+                    var latitud = position.coords.latitude;
+                    var longitud = position.coords.longitude;
+                    var altitud = position.coords.altitude;
+                    document.getElementById('latitud').innerHTML = latitud;
+                    document.getElementById('longitud').innerHTML = longitud;
+                    document.getElementById('altitud').innerHTML = altitud;
+                });
+            } else {
+                alert("Su navegador no soporta la geolocalización");
+            }
+        </script>
+    </head>
+    <body>
+        <h3>Coordenadas</h3>
+        Latitud: <span id="latitud">Loading...</span><br>
+        Longitud: <span id="longitud">Loading...</span><br>
+        Altitud: <span id="altitud"></span>
+    </body>
+</html>

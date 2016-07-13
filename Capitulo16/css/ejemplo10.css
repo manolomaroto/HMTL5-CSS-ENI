@@ -1,0 +1,12 @@
+table {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    width: 200px;
+}
+td {
+    border: 1px solid #999;
+    width: 100px;
+}
+.top { vertical-align: top;}
+.middle { vertical-align: middle;}
+.bottom { vertical-align: bottom;}

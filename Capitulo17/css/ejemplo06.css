@@ -1,0 +1,13 @@
+table {
+    width: 200px;
+}
+td {
+    border: 1px solid #862345;
+    background-color: rgb(213, 230, 245);
+}
+.show{
+    empty-cells: show;
+}
+.hide{
+    empty-cells: hide;
+}

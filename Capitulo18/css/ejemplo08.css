@@ -1,0 +1,8 @@
+div{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #999;
+    background-image: url('../img/papel3.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

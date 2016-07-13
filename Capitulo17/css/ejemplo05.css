@@ -1,0 +1,9 @@
+table {
+    width: 200px;
+    border: 1px solid #432543;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: 1px solid #432543;
+}
