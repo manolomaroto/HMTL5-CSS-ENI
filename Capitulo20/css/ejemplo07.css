@@ -1,0 +1,10 @@
+.box{
+	border: 1px solid #000;
+	width: 200px;
+	margin-left: 30px;
+	padding: 10px;
+}
+.linea:first-line{
+	font-variant: small-caps;;
+	font-weight: bold;
+}
