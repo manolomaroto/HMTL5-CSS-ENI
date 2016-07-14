@@ -1,0 +1,23 @@
+/* inicializamos el contador section */
+body{
+	counter-reset: section;
+	font-size: 50%;
+}
+
+/* inicializamos el contador item */
+h1{
+	counter-reset: item;
+}
+
+/* añadimos en cada etiqueta la palabra capitulo y el numero correspondiente incrementado*/
+h1:before{
+	counter-increment: section;
+	content: "Capítulo " counter(section) ": ";
+
+}
+
+/* añadimos en cada elemento el contador de capítulo y el de subcapítulo */
+h2:before{
+	counter-increment: item;
+	content: counter(section) "." counter(item) " ";
+}
