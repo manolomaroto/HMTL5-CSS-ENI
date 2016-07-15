@@ -1,0 +1,18 @@
+@media screen{
+	h1 {
+		font-style: italic;
+	}
+}
+@media print{
+	h1 {
+		font-style: normal;
+
+	}
+	.normal{
+		font-size: 120pt;
+	}
+	.break{
+		font-size: 120pt;
+		page-break-before: always;
+	}
+}

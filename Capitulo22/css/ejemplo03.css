@@ -1,0 +1,21 @@
+@media print{
+	table{
+		
+		page-break-inside: always;
+	}
+	
+}
+@media screen{
+	table{
+		width: 200px;
+		border: 1px solid #877898;
+		border-collapse: collapse;
+	}
+	td{
+		border: 1px solid #653465;
+	}
+	body {
+		background-color: red;
+	}
+
+}

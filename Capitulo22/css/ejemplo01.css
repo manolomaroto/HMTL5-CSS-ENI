@@ -1,0 +1,48 @@
+/*Estilos para imprimir*/
+@media print{
+body{
+	background-color: #fff;
+}
+img{
+	display: none;
+}
+.titulo{
+	font-size: 36pt;
+	font-weight: bold;
+}
+.texto{
+	background-color: #fff;
+	color: #000;
+	font-size: 12pt;
+	font-family: serif;
+
+}
+.formulario{
+	display: none;
+}
+}
+@media screen {
+body {
+	background-color: rgb(200,215,230);
+}
+.titulo{
+	font-size: 36px;
+	font-weight: bold;
+}
+.texto{
+	width: 350px;
+	background-color: rgb(125,165,205);
+	color: white;
+	padding: 5px;
+	font-size: 9pt;
+	font-family: Arial, sans-serif;
+}
+.formulario{
+	width: 350px;
+	background-color: rgb(125,165,205);
+	color: white;
+	font-size: 9pt;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+}
+}
