@@ -1,0 +1,6 @@
+/*ul :nth-last-child(2){
+    background-color: #9cf;
+}*/
+li:nth-last-of-type(2){
+    background-color: #9cf;
+}

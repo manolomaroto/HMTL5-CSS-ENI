@@ -1,0 +1,6 @@
+/*ul :nth-child(3){
+    background-color: #9cf;
+}*/
+li:nth-of-type(3){
+    background-color: #9cf;
+}

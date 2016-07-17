@@ -1,0 +1,8 @@
+/* 
+ul :first-child{
+    background-color: #9cf;
+}
+*/
+li:first-of-type{
+    background-color: #9cf;
+}

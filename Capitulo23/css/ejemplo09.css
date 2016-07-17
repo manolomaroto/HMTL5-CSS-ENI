@@ -1,0 +1,6 @@
+/*ul :nth-child(odd){
+    background-color: #9cf;
+}*/
+li:nth-of-type(odd){
+    background-color: #9cf;
+}

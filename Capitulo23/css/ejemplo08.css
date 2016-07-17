@@ -1,0 +1,6 @@
+/*ul :nth-child(even){
+    background-color: #9cf;
+}*/
+li:nth-of-type(even){
+    background-color: #9cf;
+}
