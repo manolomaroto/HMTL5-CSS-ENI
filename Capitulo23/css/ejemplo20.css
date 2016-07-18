@@ -1,0 +1,8 @@
+#box{
+    width: 220px;
+    height: 80px;
+    border-width: 20px;
+    border-image: url('../border_image.png') 30 30 round;
+    -moz-border-image: url('../border_image.png') 30 30 round;
+    -webkit-border-image: url('../border_image.png') 30 30 round;
+}
