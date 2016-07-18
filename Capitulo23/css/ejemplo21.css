@@ -1,0 +1,10 @@
+#sombra{
+    text-shadow: 2px 2px 4px #999;
+    /*Sombras para explorer 9 y anteriores*/
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#aaa',Direction=135,Strength=6);
+}
+#relieve{
+    text-shadow: 2px 2px 3px #000;
+    color: #fff;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color='#aaa',Direction=135,Strength)
+}
