@@ -1,0 +1,12 @@
+.transition a {
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    -webkit-transition: border 1s ease-out;
+    -moz-transition: border1s ease-out;
+    transition: border 1s ease-out;
+}
+.transition a:hover{
+    border-bottom: 50px solid #9cf;
+}
