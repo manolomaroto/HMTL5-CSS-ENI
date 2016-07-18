@@ -1,0 +1,16 @@
+div{
+    float: left;
+    width: 109px;
+    height: 154px;
+    background-image: url(../flor.png);
+}
+.flor1{
+    opacity: 1;
+    
+}
+.flor2{
+    opacity: .6;
+}
+.flor3{
+    opacity: .3;
+}
