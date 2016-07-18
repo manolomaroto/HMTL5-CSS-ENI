@@ -1,0 +1,9 @@
+#box{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #999;
+    background: url(../flores1.png) top left no-repeat,
+        url(../flores2.png) top right no-repeat,
+        url(../flores3.png) bottom right no-repeat,
+        url(../flores4.png) bottom left no-repeat;
+}
