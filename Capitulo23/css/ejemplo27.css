@@ -1,0 +1,12 @@
+#box{
+    width: 250px;
+    height: 80px;
+    border: 1px solid #999;
+    background: -webkit-gradient(linear,left top,right bottom,from(#7DA5CD),to(#fff));
+}
+#box2{
+    width: 250px;
+    height: 80px;
+    border: 1px solid #999;
+    background: -moz-linear-gradient(top left, #7DA5CD,#fff);
+}

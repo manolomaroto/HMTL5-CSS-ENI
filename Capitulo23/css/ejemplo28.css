@@ -1,0 +1,12 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #999;
+    background: -webkit-gradient(radial,center center,0,center center,150,from(#fff),to(#7da5cd));
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #999;
+    background: -moz-radial-gradient(center center,circle,#fff,#7da5cd);
+}
