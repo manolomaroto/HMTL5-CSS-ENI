@@ -1,0 +1,18 @@
+.round1{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(185, 205, 225);
+    border: 1px solid #999;
+    border-radius: 35px;
+    -moz-border-radius:35px;
+    -webkit-border-radius:35px;
+}
+
+.round2{
+    width: 12em;
+    height: 4em;
+    background-color: rgb(185,205,225);
+    border: 1px solid #999;
+    margin-top: 10px;
+    border-radius: 1em 4em;
+}

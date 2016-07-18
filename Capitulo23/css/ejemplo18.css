@@ -1,0 +1,8 @@
+.round{
+    width: 250px;
+    height: 108px;
+    border-radius: 1em;
+    -moz-border-radius:1em;
+    -webkit-border-radius:1em;
+    background-image: url('../blue.png');
+}

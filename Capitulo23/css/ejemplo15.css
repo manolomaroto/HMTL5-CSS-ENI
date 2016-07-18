@@ -1,0 +1,10 @@
+.round{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(185,205,225);
+    border: 1px solid #999;
+    border-radius: 1em;
+    /*añadimos para que sea compatible*/
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+}
