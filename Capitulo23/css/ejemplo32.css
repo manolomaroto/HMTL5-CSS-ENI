@@ -1,0 +1,13 @@
+body{
+    padding-left: 15px;
+}
+#box{
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #000;
+    padding-left: 10px;
+    transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    margin-top: 50px;
+}
