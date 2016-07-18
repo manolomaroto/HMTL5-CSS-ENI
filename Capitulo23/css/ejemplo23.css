@@ -1,0 +1,7 @@
+@font-face{
+    font-family: 'manolo';
+    src: url(../rocker.ttf);
+}
+body{
+    font: 100px 'manolo', fantasy;
+}
